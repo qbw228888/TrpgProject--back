@@ -15,31 +15,19 @@ spring:
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://43.138.44.237:3306/TRPG?characterEncoding=utf8&serverTimezone=Asia/Shanghai
-      username: halden
-      password: 228888
+      url: jdbc:mysql://****:****/TRPG?characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      username: ****
+      password: ****
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
   redis:
-    host: 43.138.44.237
-    port: 6379
-    password: 228888
+    host: ******
+    port: ****
+    password: ****
 
-#  rabbitmq:
-#    host: 43.138.44.237
-#    port: 5672
-#    username: admin
-#    password: admin
 mybatis-plus:
   mapper-locations: mappers/*.xml
 
 
 on-path: http://localhost:9001/file/
-
-
-ftp:
-  host: 43.138.44.237
-  port: 21
-  username: halden
-  password: 228888
